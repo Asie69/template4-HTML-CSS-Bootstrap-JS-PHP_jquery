@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'iyekan';
+    src: url(../fonts/iranyekan/iranyekanwebregular.eot) format('eot'),
+        url(../fonts/iranyekan/iranyekanwebregular.ttf) format('ttf'),
+        url(../fonts/iranyekan/iranyekanwebregular.woff) format('woff');
+}
+
+@font-face {
+    font-family: "iyekanB";
+    src: url(../fonts/iranyekan/iranyekanwebbold.eot) format('eot'),
+        url(../fonts/iranyekan/iranyekanwebbold.ttf) format('ttf'),
+        url(../fonts/iranyekan/iranyekanwebbold.woff) format('woff');
+}
+
+:root {
+    --main-color1: #f79031;
+    --main-color2: #f50f0f;
+}
+
+.main-color1 {
+    color: var(--main-color1);
+}
+
+.main-color2 {
+    color: var(--main-color2);
+}
+
+body {
+    direction: rtl;
+    font-family: 'iyekan' !important;
+}
+
+button {
+    font-family: 'iyekan' !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "iyekanB" !important;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+#headerIndex {
+    height: 100vh;
+}
+
+#bg-video {
+    width: 100%;
+    height: auto;
+}
+
+#header-socialMed i:hover {
+    color: var(--main-color1) !important;
+}
+
+#header-meeting {
+    background: url(./../images/heading-bg.jpg) no-repeat center top;
+    background-size: cover;
+    height: 450px;
+}
+
+#header-socialMed {
+    background-color: #1f262c;
+}
+
+#header-pattern {
+    background-color: rgba(31, 39, 43, 0.75);
+}
+
+#Nav {
+    background-color: rgba(117, 115, 115, 0.6);
+}
+
+nav a:hover {
+    color: var(--main-color1) !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--main-color1) !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: transparent !important;
+}
+
+.offcanvas .dropdown-menu {
+    position: initial !important;
+    transform: initial !important;
+}
+
+.dropdown-item {
+    text-align: initial !important;
+}
+
+.dropdown-item:hover {
+    transform: translateX(-10px);
+    transition-duration: 0.5s;
+}
+
+#content-header {
+    top: -40rem;
+}
+
+.services {
+    direction: ltr;
+    position: absolute;
+    top: 32rem;
+    right: 100px;
+}
+
+.services .item {
+    background: url(../images/service-item-bg.jpg);
+    border-radius: 30px;
+}
+
+.services #icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.owl-prev::before {
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    font-weight: 700;
+    content: '\f104';
+    position: absolute;
+    left: -70px;
+    top: 130px;
+}
+
+.owl-next::before {
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    font-weight: 700;
+    content: '\f105';
+    position: absolute;
+    right: -70px;
+    top: 130px;
+}
+
+.owl-stage-outer {
+    position: relative;
+}
+
+#meeting-main {
+    background-image: url(../images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 110px;
+}
+
+#meeting .price {
+    top: 20px;
+    left: 20px;
+}
+
+#meeting .card {
+    width: 22rem !important;
+}
+
+#apply-now {
+    background-image: url(../images/apply-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+#bachelorDegree a:hover {
+    background-color: var(--main-color1);
+}
+
+#popularCourse {
+
+    background-image: url(../images/meetings-page-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+#popularCourse .owl-carousel {
+    direction: ltr;
+}
+
+.accordion-button {
+    font-size: 1.2rem !important;
+}
+
+.accordion-button::after {
+    margin-left: initial !important;
+    margin-right: auto !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: initial !important;
+    box-shadow: none !important;
+    color: var(--main-color1) !important;
+    font-weight: 700;
+}
+
+#bachelorDegree .col-12 {
+    background-color: rgba(250, 250, 250, 0.15);
+}
+
+#facts {
+    background-image: url(../images/facts-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0px;
+}
+
+#facts .col-lg-5:last-child {
+    background: url(../images/video-item-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+
+#facts .container .row .col-lg-6:first-child .col-12 .col-6 .col-12 {
+    background-color: rgba(250, 250, 250, 0.15) !important;
+}
+
+#footerIndex {
+    background-image: url(../images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+
+#footerInclude {
+    background-image: url(../images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#meetingPage {
+    background: url(../images/meetings-bg.jpg) top center fixed no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+
+#meetingPage .btn:hover {
+    background-color: var(--main-color2);
+    color: #fff !important;
+}
+
+.alert-dismissible .btn-close {
+    right: initial !important;
+    left: 0 !important;
+}
+
+.alert-dismissible {
+    padding-right: 1rem !important;
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+    .width-50 {
+        width: 100%;
+    }
+
+    .f-14 {
+        font-size: 12px;
+    }
+
+    #content-header {
+        top: -30rem;
+    }
+
+    header video {
+        transform: translateX(500px);
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .width-50 {
+        width: 80%;
+    }
+
+    #content-header {
+        top: -35rem;
+    }
+
+    header video {
+        transform: translateX(550px);
+    }
+
+    #meeting .card {
+        width: 100% !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .width-50 {
+        width: 80%;
+    }
+
+    #content-header {
+        top: -35rem;
+    }
+
+    header video {
+        transform: translateX(550px);
+    }
+
+    #meeting .card {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width:1024px) {
+    #bg-video {
+        width: auto;
+        height: 100vh;
+    }
+
+    .services {
+        direction: ltr;
+        position: initial;
+    }
+}
